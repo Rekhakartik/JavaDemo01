@@ -18,9 +18,9 @@ public class DoWhile {
 
 		char choice = '0';
 		do {
-			System.out.println("'1'.Condition statements");
-			System.out.println("'2'.Loops");
-			System.out.println("'3'.Push code to Remote repository");
+			System.out.println("1.Condition statements");
+			System.out.println("2.Loops");
+			System.out.println("3.Push code to Remote repository");
 			System.out.println("Choose one:");
 			choice = (char)System.in.readNBytes(3)[0];
 		} while (choice < '1' || choice > '3');
